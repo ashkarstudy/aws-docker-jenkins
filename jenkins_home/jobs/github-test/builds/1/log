@@ -1,0 +1,23 @@
+Started by GitHub push by ashkarstudy
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/github-test
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/ashkarstudy/jenkins-test.git
+ > git init /var/jenkins_home/workspace/github-test # timeout=10
+Fetching upstream changes from https://github.com/ashkarstudy/jenkins-test.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/ashkarstudy/jenkins-test.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/ashkarstudy/jenkins-test.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/ashkarstudy/jenkins-test.git # timeout=10
+Fetching upstream changes from https://github.com/ashkarstudy/jenkins-test.git
+ > git fetch --tags --progress -- https://github.com/ashkarstudy/jenkins-test.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision fe95c1823efbf26622ea50a069872d17e7abc002 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fe95c1823efbf26622ea50a069872d17e7abc002 # timeout=10
+Commit message: "Update test-file"
+First time build. Skipping changelog.
+Finished: SUCCESS
